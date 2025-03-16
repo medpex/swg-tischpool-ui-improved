@@ -1,0 +1,16 @@
+/* Schwarze Schriftfarbe für bessere Lesbarkeit in Eingabefeldern */
+input, select, textarea {
+  color: #000000 !important;
+}
+
+/* Stärkerer Kontrast für Placeholder-Texte */
+::placeholder {
+  color: #6B7280 !important;
+  opacity: 1;
+}
+
+/* Bessere Fokus-Zustände */
+input:focus, select:focus, textarea:focus {
+  border-color: #3B82F6 !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25) !important;
+}
