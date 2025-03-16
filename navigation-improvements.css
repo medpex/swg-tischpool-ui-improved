@@ -1,0 +1,53 @@
+/* Verbesserte Navigation */
+
+/* Aktive Navigationslinks */
+.nav-link.active {
+  background-color: #F3F4F6;
+  color: #111827;
+  font-weight: 500;
+  border-left: 2px solid #3B82F6;
+}
+
+/* Logout-Button */
+.logout-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #EF4444;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #DC2626;
+}
+
+.logout-button svg {
+  margin-right: 0.5rem;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+/* Profillink in der Navigation */
+.profile-link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #6B7280;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.profile-link:hover {
+  background-color: #F3F4F6;
+  color: #111827;
+}
+
+.profile-link svg {
+  margin-right: 0.5rem;
+  height: 1.25rem;
+  width: 1.25rem;
+}
